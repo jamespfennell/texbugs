@@ -91,7 +91,8 @@ dvipdf documentv2.dvi
 In order to describe the bug I first briefly recall how lig/kern programs and hyphenation work in TeX.
 
 **Lig/kern programs** are a text preprocessing facility in TeX that transform the input sequence of characters.
-A simple example is in Computer Modern, where the `ffi` sequence in the word `difficult` gets transformed into a single ligature `ﬃ`
+A simple example is in Computer Modern, where the `ffi` sequence in the word `difficult`
+[gets transformed](https://ligkern.dev/?font=cmr10&text=difficult) into a single ligature `ﬃ`g
   (character `0x0E` in Computer Modern, or Unicode `U+FB03`).
 Lig/kern programs can add, remove, swap and otherwise change characters in the input.
 
