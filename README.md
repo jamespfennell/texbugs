@@ -5,7 +5,7 @@ Contemporary bugs in TeX tend to be very subtle and technical because the softwa
 All of the "simple" bugs have already been found.
 I use this repository to build minimal reproductions and polish the bug reports.
 
-I find bugs in TeX as a side effect of my work on [Texcraft](https://github.com/jamespfennell/texcract).
+I find bugs in TeX as a side effect of my work on [Texcraft](https://github.com/jamespfennell/texcraft).
 
 | Bug # | Discoved   | Software | Synopsis                                              | Status
 |-------|------------|----------|-------------------------------------------------------|-
