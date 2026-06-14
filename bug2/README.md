@@ -17,7 +17,7 @@
 
 
 ```
-tex input.tex
-
-
+tex document.tex
+perl -pe 's/dmr10/cmr10/g' document.dvi > documentv2.dvi
+dvipdf documentv2.dvi
 ```
